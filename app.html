@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Expense Tracker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/form_styles.css">
+    <link rel="stylesheet" href="styles/expense_styles.css">
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/functions.js"></script>
+</head>
+<body>
+    <header>
+        <span class="main-title">My Expense Tracker</span>
+    </header>
+
+    <nav>
+        <div class="secondary-title-container">
+            <span class="secondary-title">Add A New Item</span>
+        </div>
+        <div class="form-container">
+            <form action="" class="form-main" id="expense-form">
+                <ul class="list-container">
+                    <li class="form-element">
+                        <label for="item-name" class="form-label">Name</label>
+                        <input type="text" class="form-input" id="item-name" value="" required>
+                    </li>
+                    <li class="form-element">
+                        <label for="item-amount" class="form-label">Amount</label>
+                        <input type="number" class="form-input" id="item-amount" value="" required>
+                    </li>
+                    <li class="form-element">
+                        <label for="item-date" class="form-label">Date</label>
+                        <input type="date" class="form-input" id="item-date" value="" required>
+                    </li>
+                    <li class="form-element">
+                        <label for="item-type" class="form-label">Type*</label>
+                        <input type="text" class="form-input" id="item-type">
+                    </li>
+                    <li class="submit-element">
+                        <input type="submit" value="Add Expense" class="submit-button">
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <div class="expense-container">
+            
+        </div>
+    </main>
+</body>
+</html>

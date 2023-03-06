@@ -1,0 +1,54 @@
+*{
+    background-color: #8594e4; 
+}
+
+body{
+    /* overflow: hidden; */
+    scrollbar-width: none;
+    background-color: #8594e4; 
+    margin: 0;
+    width: 390px;
+    height: 844px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-align: unset;
+    box-sizing: unset;
+}
+
+/* ^^^^^ General Settings Above ^^^^^ */
+
+p{
+    margin: 0;
+    cursor: pointer;
+}
+
+/* Top Title */
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+.main-title{
+    font-size: 30px;
+    font-family: Luminari, fantasy;
+    font-weight: 300;
+    color: #d5def5; 
+}
+
